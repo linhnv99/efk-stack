@@ -1,0 +1,8 @@
+logging:
+  level:
+    org.springframework.web: ERROR
+    vn.com.ntqsolution: DEBUG
+    org.fluentd.logger.sender.RawSocketSender: OFF
+  file:
+    name: /var/log/efk/efk.log
+#    name: /Users/nguyenvietlinh/Desktop/TIG-STACK/efk.log
