@@ -1,6 +1,5 @@
 package com.linhnv.efkstack.logger;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.fluentd.logger.FluentLogger;
 import org.springframework.stereotype.Component;
@@ -17,10 +16,10 @@ public class KibanaLogger {
 
     static {
         objectMapper = new ObjectMapper();
-        logger = FluentLogger.getLogger("fluentd.test", "3.239.211.167", 24244);
+        logger = FluentLogger.getLogger("fluentd.test", "44.197.176.9", 24224);
     }
 
-    public void log(String data){
+    public void log(String data) {
         try {
             Map<String, Object> mapData = new HashMap<>();
 
